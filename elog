@@ -12,7 +12,7 @@ cyan='\e[0;36m'
 sleep 3
 
 # Default directory for eternal scanner data 
-defdir="/usr/local/share/Eternal_Scanner"
+defdir="/$HOME/Eternal_Scanner"
 
 # Default file that defines which program is running
 masstat="$defdir/stat"
