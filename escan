@@ -20,7 +20,7 @@ rt="500"
 vers="2.3"
 
 # Set Default Data directory
-defdir="$HOME/Eternal_Scanner"
+defdir="/data/data/com.termux/files/usr/local/share/Eternal_Scanner"
 
 # Set default Scanner Speed
 rt="500"
@@ -120,8 +120,8 @@ echo -e ""
 echo -e "$yellow" "Press ENTER key To Continue"
 read -r cont
 echo ""
-cp escan /$HOME/ >/dev/null 2>&1
-cp elog /$HOME/ >/dev/null 2>&1
+cp escan /data/data/com.termux/files/usr/local/sbin/ >/dev/null 2>&1
+cp elog /data/data/com.termux/files/usr/local/sbin/ >/dev/null 2>&1
 echo ""
 echo -e "$green" "Eternal Scanner was installed in your system"
 echo ""
@@ -130,8 +130,8 @@ echo ""
 echo -e "$yellow" "Press ENTER key To Continue"
 read -r cont
 else
-cp escan /$HOME/ >/dev/null 2>&1
-cp elog /$HOME/ >/dev/null 2>&1
+cp escan /data/data/com.termux/files/usr/local/sbin/ >/dev/null 2>&1
+cp elog /data/data/com.termux/files/usr/local/sbin/ >/dev/null 2>&1
 echo ""
 echo -e "$green" "Eternal Scanner was installed in your system"
 echo ""
