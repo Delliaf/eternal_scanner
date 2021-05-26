@@ -20,7 +20,7 @@ rt="500"
 vers="2.3"
 
 # Set Default Data directory
-defdir="/usr/local/share/Eternal_Scanner"
+defdir="$HOME/Eternal_Scanner"
 
 # Set default Scanner Speed
 rt="500"
